@@ -3,11 +3,10 @@ import mongoose from "mongoose";
 import bcrypt from "bcrypt";
 
 import UserSchema from "./schemas/User.js";
-import ManufacturerSchema from "./schemas/Manufacturer.js";
-import Product from "./schemas/Product.js";
+
 
 mongoose.connect(
-  "mongodb+srv://admin:admin@cluster0.5cgl6t8.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+  "mongodb+srv://admin:admin@cluster0.79okd5y.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 );
 
 const app = express();
